@@ -1,0 +1,15 @@
+<%= form_for :login do |login| %>
+  <p>
+    <%= login.label :userid, "ID" %><br>
+    <%= login.text_field :userid %>
+  </p>
+ 
+  <p>
+    <%= login.label :password, "パスワード" %><br>
+    <%= login.text_field :password %>
+  </p>
+ 
+  <p>
+    <%= login.submit %>
+  </p>
+<% end %>

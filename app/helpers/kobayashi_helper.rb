@@ -1,0 +1,2 @@
+module KobayashiHelper
+end
